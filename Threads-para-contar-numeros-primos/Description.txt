@@ -1,0 +1,2 @@
+Programa que conta a quantidade de números primos contidos num intervalo passado pelo usuário, 
+utilizando uma certa quantidade de threads, tambem dada pelo usuario
