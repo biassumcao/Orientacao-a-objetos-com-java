@@ -1,0 +1,2 @@
+O objetivo desse programa é contar a quantidade de um certo caracter passado pelo usuário, contido num arquivo externo de texto
+passado tambem pelo usuario
