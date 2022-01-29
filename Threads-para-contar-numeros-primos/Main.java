@@ -4,14 +4,15 @@ public class Main {
         MyThread [] t = new MyThread[numThreads];
         int primosTotais = 0;
 
-        int tam = numIntervalo / numThreads;
-        int cont = 2;
+        int tam = numIntervalo / numThreads; //tamanho do subintervalo
+        int cont = 2; 
 
         for (int i = 0; i < numThreads; i++) {
             if(i == numThreads - 1){
                 t[i] = new MyThread(cont, numIntervalo, "t"+i);
             }else{
-                t[i] = new MyThread(cont, cont + tam - 1, "t"+i);
+                int subIntervalo = cont + tam -1;
+                t[i] = new MyThread(cont, subIntervalo, "t"+i);
             }
             cont += tam;
         }
