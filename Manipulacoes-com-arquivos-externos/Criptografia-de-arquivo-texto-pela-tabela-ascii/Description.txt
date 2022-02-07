@@ -1,0 +1,3 @@
+O programa criptografa um arquivo texto utilizando um inteiro
+passado como parametro para gerar a criptografia com o valor
+original ascii somado com esse inteiro
